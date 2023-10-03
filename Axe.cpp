@@ -14,7 +14,7 @@ Axe::Axe( string axename, Color color )
 
     cout << "Axe " << axename << " foi criado \n";
     cout << "Numero de nomes anteriores " << numPreviousName << '\n';
-    cout << "Cor do axe: " << Color(color) << '\n';
+    cout << "Cor do axe: " << this->color << '\n';
 }
 
 void Axe::setAxeName( string axename )

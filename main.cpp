@@ -48,7 +48,7 @@ int main( )
 
     inputFile.close();
 
-    /*
+    
     double color; 
     if (variables.find("color") != variables.end())
         color = variables["color"]; 
@@ -56,7 +56,7 @@ int main( )
         cerr << "'color' variable not found." << '\n';
    
     cout << "Value of color variable: " << color << '\n';
-     */
+    
 
     cout << "Value of Weigth variable: " << variables["Weigth"] << '\n';
 

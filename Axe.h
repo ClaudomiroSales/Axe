@@ -1,13 +1,20 @@
+#ifndef AXE_H
+#define AXE_H
+
 #include <string>
 using std::string;
 
-#ifndef AXE_H
-#define AXE_H
+enum Color
+   {
+      RED,
+      BLUE,
+      WHITE
+   };
 
 class Axe
 {
 public:
-    Axe( string = "" );
+    Axe( string = "", Color = RED );
 
     void setAxeName( string );
 
@@ -22,6 +29,8 @@ private:
     //No máximo devem ter MAXNUMNAMES que foram cadastrados
     static const int MAXNUMNAMES = 10;
     string previoursAxeNames[ MAXNUMNAMES ];
+
+    Color color;
 
     
 };

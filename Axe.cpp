@@ -4,7 +4,8 @@ using std::cout;
 #include "Axe.h"
 
 // Construtores com atributos Const
-Axe::Axe( string axename )
+Axe::Axe( string axename, Color color )
+:color( color )
 {
     cout << "Classe Axe\n";
 
@@ -13,6 +14,7 @@ Axe::Axe( string axename )
 
     cout << "Axe " << axename << " foi criado \n";
     cout << "Numero de nomes anteriores " << numPreviousName << '\n';
+    cout << "Cor do axe: " << Color(color) << '\n';
 }
 
 void Axe::setAxeName( string axename )

@@ -6,7 +6,7 @@ using std::string;
 
 enum Color
    {
-      RED,
+      RED = 1,
       BLUE,
       WHITE
    };

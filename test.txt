@@ -1,0 +1,2 @@
+color = 3
+Weigth = 19.1
